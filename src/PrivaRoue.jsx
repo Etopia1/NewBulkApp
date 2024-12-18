@@ -8,10 +8,10 @@ const PrivaRoue = () => {
   return (
     <>
       <div className='w-[100%] h-[100vh]  flex items-center justify-center  '>
-        <div className="w-[10%] h-[100%] hidden md:flex  ">
+        <div className="w-[10%] h-[100%] bg-[white] dark:bg-gray-800 hidden md:flex  ">
             <Sidebar/>
         </div>
-        <div className=" w-[100%] h-[100%] md:w-[100%]  flex items-center justify-center flex-col">
+        <div className=" w-[100%] h-[100%] md:w-[100%] dark:bg-gray-800 flex items-center justify-center flex-col">
           <div className=" w-[100%] h-[10%] ">
             <Header/>
           </div>
